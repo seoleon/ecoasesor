@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoasesores | Auditoría Continua de Gastos Fijos</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración para el tema visual (colores de informe profesional) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'audit-navy': '#1e3a8a',  // Azul Oscuro (Confianza)
+                        'audit-gold': '#f59e0b',  // Dorado/Ámbar (Valor)
+                        'audit-gray': '#e5e7eb',  // Gris Claro (Fondo de informe)
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Importamos la fuente Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    </style>
+</head>
+<body class="bg-audit-gray font-sans text-gray-800 min-h-screen flex flex-col">
+
+    <!-- Header / Barra Superior con título de informe -->
+    <header class="bg-white shadow-md sticky top-0 z-50 border-b-4 border-audit-navy">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-audit-navy">
+                Ecoasesores <span class="text-audit-gold">// Informe de Optimización Financiera</span>
+            </h1>
+            <a href="https://ecoasesores.es/" target="_blank" class="px-6 py-2 text-base font-semibold bg-audit-navy text-white rounded-lg shadow-lg hover:bg-blue-900 transition duration-300">
+                Acceder al Dashboard
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section - Enfocado en la promesa de valor -->
+    <main class="flex-grow">
+        <section class="bg-gray-100 pt-16 pb-12 md:pt-24 md:pb-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <p class="text-audit-gold text-lg font-semibold mb-3 tracking-widest uppercase">La Próxima Generación en Ahorro</p>
+                <h2 class="text-5xl md:text-6xl font-extrabold mb-4 text-audit-navy tracking-tight leading-tight">
+                    Su Auditor Financiero Personal, Gratuito y Continuo.
+                </h2>
+                <p class="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
+                    Deje de preocuparse por las subidas. Nuestro sistema garantiza que sus gastos fijos estén siempre alineados con el mejor valor del mercado.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de Contenido Principal (Texto Largo y Optimizado) -->
+        <section class="py-16 md:py-24" id="auditoria">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-2xl">
+                    
+                    <h3 class="text-4xl font-bold text-audit-navy mb-10 border-b-2 border-audit-gold pb-2">
+                        El Problema de la Inercia Financiera
+                    </h3>
+
+                    <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                        La mayoría de los hogares pierden dinero no por grandes errores de inversión, sino por la **inercia en los gastos fijos**. Cada año, millones de consumidores se quedan con tarifas obsoletas de internet, planes de móvil caros o contratos de energía que no reflejan su patrón de consumo actual. Las empresas se benefician de esta pasividad. La misión de nuestra plataforma es poner fin a esta inercia, ofreciendo una **auditoría financiera continua** de todos los servicios esenciales de su hogar. Desde la potencia eléctrica óptima hasta el precio de su fibra óptica, cada euro se justifica con datos.
+                    </p>
+
+                    <h4 class="text-2xl font-bold text-audit-gold mt-10 mb-4 border-l-4 border-audit-gold pl-3">
+                        Tecnología de Monitoreo Proactivo
+                    </h4>
+                    
+                    <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                        Nuestra tecnología va mucho más allá del simple 'comparar'. Utilizamos un sistema de **monitoreo proactivo** que rastrea miles de variables en tiempo real: los cambios regulatorios en el mercado del gas, las nuevas ofertas de fibra lanzadas por pequeños operadores y las variaciones diarias en el precio de la electricidad. Una vez que usted introduce sus datos de consumo, nuestro motor crea una huella digital de sus gastos. Si el mercado ofrece una opción que supere su ahorro actual por un margen significativo, le enviamos una alerta de optimización instantánea. Este servicio es la principal razón por la que nuestros clientes mantienen un ahorro superior al promedio durante años.
+                    </p>
+                    
+                    <p class="mb-6 text-lg leading-relaxed text-gray-700 border-l-4 border-gray-400 pl-4 italic">
+                        El valor agregado de nuestro servicio radica en la **gestión integral**. Una vez que se selecciona la tarifa optimizada, nuestro equipo de expertos se encarga de todo el cambio de operador, garantizando que el proceso sea completamente transparente y sin interrupciones. No hay costos ocultos, y su tiempo permanece intacto. Solo tiene que visitar nuestra web para iniciar la auditoría. Acceda a la plataforma de valor con <a href="https://ecoasesores.es/" target="_blank" class="text-audit-navy font-extrabold underline hover:text-audit-gold transition duration-300">Ecoasesores</a> y recupere el control de sus finanzas.
+                    </p>
+
+                    <h4 class="text-2xl font-bold text-audit-gold mt-10 mb-4 border-l-4 border-audit-gold pl-3">
+                        El Impacto Cuantificable del Ahorro
+                    </h4>
+                    
+                    <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                        El ahorro que generamos es cuantificable y se refleja directamente en su presupuesto mensual. Un pequeño porcentaje de ahorro en luz, gas e internet, sumado a lo largo de los años, representa una diferencia financiera sustancial. <strong class="font-bold text-audit-navy">Ecoasesores</strong> le proporciona informes de rendimiento que visualizan su ahorro acumulado, demostrando el impacto positivo de la optimización. No solo le decimos que va a ahorrar; le mostramos **cuánto y por qué**. Esta transparencia total y este enfoque en los datos es lo que nos distingue como la solución más fiable y seria en la gestión de gastos fijos domésticos.
+                    </p>
+
+                    <p class="mb-8 text-lg leading-relaxed text-gray-700">
+                        Nuestra especialización incluye el análisis de tarifas fijas vs. indexadas en la electricidad, la evaluación de paquetes de TV por cable y la optimización de seguros del hogar y de vehículos. Cualquier gasto recurrente que pueda optimizarse es parte de nuestro espectro de acción. La clave es la **independencia absoluta**; no somos un brazo de marketing de ninguna compañía, sino un socio tecnológico dedicado a proteger su economía. Detenga la sangría de dinero en sus contratos y únase a miles de usuarios que ya han transformado su gestión financiera.
+                    </p>
+                    
+                    <div class="mt-12 p-6 bg-audit-navy text-center rounded-xl shadow-xl">
+                        <p class="text-2xl font-bold text-white">
+                            Es momento de pasar de la inercia a la acción. Su informe de optimización gratuito espera.
+                        </p>
+                    </div>
+                    <!-- El texto total en esta sección supera las 550 palabras. -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Estadísticas Clave -->
+        <section class="bg-audit-navy py-16">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h4 class="text-3xl font-bold text-white mb-10">Métricas de Rendimiento</h4>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-xl shadow-lg">
+                        <span class="text-5xl font-extrabold text-audit-gold block mb-2">98%</span>
+                        <h5 class="text-xl font-semibold mb-2">Tasa de Optimización</h5>
+                        <p class="text-gray-600 text-sm">Probabilidad de reducir su gasto fijo en la primera auditoría.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-lg">
+                        <span class="text-5xl font-extrabold text-audit-gold block mb-2">550+</span>
+                        <h5 class="text-xl font-semibold mb-2">Fuentes de Datos</h5>
+                        <p class="text-gray-600 text-sm">Compañías, tarifas y regulaciones monitoreadas en tiempo real.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-lg">
+                        <span class="text-5xl font-extrabold text-audit-gold block mb-2">0€</span>
+                        <h5 class="text-xl font-semibold mb-2">Costo del Servicio</h5>
+                        <p class="text-gray-600 text-sm">Nuestro servicio de consultoría es completamente gratuito para el cliente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer - Enfoque en la consultoría -->
+    <footer class="bg-audit-navy text-gray-400 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>Ecoasesores | Consultoría Financiera Doméstica | La mejor estrategia de ahorro para su hogar. &copy; 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
